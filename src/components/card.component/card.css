@@ -1,0 +1,16 @@
+.card{
+
+    background:#61dafb;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateZ(0);
+    transition: transform .3s;   
+    backface-visibility: hidden;
+}
+
+.card:hover{
+transform:scale(1.1)
+
+}
